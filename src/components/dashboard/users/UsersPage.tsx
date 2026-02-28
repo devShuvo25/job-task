@@ -11,7 +11,7 @@ const UsersPage = () => {
   const { data: users, isLoading } = useGetUsersQuery(undefined);
 
   return (
-    <div className="p-4 md:p-8 space-y-6 md:space-y-8 bg-[#FAFAFA] min-h-screen">
+    <div className=" md:p-8 space-y-6 md:space-y-8 bg-[#FAFAFA] min-h-screen">
       <DashboardHeader
         title="Team Members"
         description="Manage your team members and their account permissions."

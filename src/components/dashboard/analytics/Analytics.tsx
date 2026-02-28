@@ -32,7 +32,7 @@ export const AnalyticsPage = () => {
 
   return (
     // Responsive padding: p-4 for mobile, p-8 for desktop
-    <div className="p-4 md:p-8 space-y-6 md:space-y-8 bg-[#FAFAFA] min-h-screen">
+    <div className=" md:p-8 space-y-6 md:space-y-8 bg-[#FAFAFA] min-h-screen">
       <DashboardHeader
         title="Analytics Overview"
         description="Track your performance metrics and conversion trends over time."

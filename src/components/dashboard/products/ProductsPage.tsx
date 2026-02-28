@@ -10,7 +10,7 @@ const ProductsPage = () => {
   const { data: products, isLoading } = useGetProductsQuery(undefined);
 
   return (
-    <div className="p-4 md:p-8 space-y-6 md:space-y-8 bg-[#FAFAFA] min-h-screen">
+    <div className="md:p-8 space-y-6 md:space-y-8 bg-[#FAFAFA] min-h-screen">
       <DashboardHeader
         title="Product Inventory"
         description="Manage your plans, physical goods, and track sales performance."

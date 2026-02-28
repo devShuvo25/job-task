@@ -40,7 +40,7 @@ const HelpPage = () => {
   ];
 
   return (
-    <div className="p-4 md:p-8 space-y-6 md:space-y-8 bg-[#F8F8F8] min-h-screen">
+    <div className="md:p-8 space-y-6 md:space-y-8 bg-[#F8F8F8] min-h-screen">
       <DashboardHeader
         title="Help Center"
         description="Search for help articles or contact our support team."
