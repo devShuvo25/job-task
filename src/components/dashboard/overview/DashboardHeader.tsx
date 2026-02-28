@@ -31,7 +31,7 @@ const DashboardHeader = ({
           className='btn-gradient'
         >
           <Plus size={18} /> 
-          Add Project
+          Add {title}
         </button>
         
         <button 

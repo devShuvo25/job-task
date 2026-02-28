@@ -40,7 +40,7 @@ export const StatCard = ({ label, value }: StateCardProps) => {
 
   if (isFeatured) {
     return (
-      <div className="bg-gradient-to-br from-[#1B5E3F] to-[#2D8C5B] p-6 rounded-[24px] text-white relative overflow-hidden group shadow-lg transition-all hover:shadow-xl">
+      <div className="bg-gradient-to-br from-[#14402b] to-[#2D8C5B] p-6 rounded-[24px] text-white relative overflow-hidden group shadow-lg transition-all hover:shadow-xl">
         <div className="flex justify-between items-start mb-4">
           <span className="text-sm font-medium opacity-90">{label}</span>
           <button className="bg-white/20 p-2 rounded-full backdrop-blur-sm group-hover:bg-white/30 transition-all">

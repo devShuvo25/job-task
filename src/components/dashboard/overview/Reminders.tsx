@@ -15,8 +15,8 @@ const RemindersCard = ({
   onStartMeeting 
 }: RemindersCardProps) => {
   return (
-    <div className="bg-white rounded-[24px] border border-gray-100 shadow-sm flex flex-col justify-between h-full">
-      <div className='p-6'>
+    <div className="bg-white rounded-3xl border border-gray-100 shadow-sm flex flex-col justify-between h-full">
+      <div className='p-4'>
         <h3 className="text-lg font-bold mb-4 text-gray-900">
           {title}
         </h3>
@@ -28,7 +28,7 @@ const RemindersCard = ({
         </p>
       </div>
       
-      <div className='p-2'>
+      <div className='p-1'>
         <button 
         onClick={onStartMeeting}
         className='btn-gradient '

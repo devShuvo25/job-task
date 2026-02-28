@@ -31,7 +31,7 @@ export const NAV_GENERAL = [
   {
     label: "Settings",
     icon: Settings,
-    path: "/dashboard/settings",
+    path: "/dashboard/setting",
   },
   {
     label: "Help",
