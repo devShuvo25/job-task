@@ -63,17 +63,6 @@ const LoginPage = () => {
       toast.success("Welcome back!");
       router.replace("/dashboard");
     } catch {
-      // toast.error(err?.data?.message || "Invalid credentials");
-      const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNtbGY5Mjk1NzAwMDBqcjJ6MGV0a3kwZTAiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImZpcnN0TmFtZSI6IiIsImxhc3ROYW1lIjoiIiwidXNlcm5hbWUiOm51bGwsImlhdCI6MTc3MDY0OTA0NywiZXhwIjoxNzcwNzM1NDQ3fQ.bN7do8s1lUGoa55T7XYYUPZyKa65eqdYyt-Bg6DlOiE";
-      Cookies.set("token", token, { 
-        expires: 7, 
-        path: "/", // Critical: Makes cookie available on all pages
-        sameSite: "lax", 
-        secure: window.location.protocol === "https:" // Only use secure on HTTPS
-      });
-
-      // Update Redux
-      dispatch(setUser({ token }));
       toast.success("Welcome back!");
       router.replace("/dashboard");
     }
